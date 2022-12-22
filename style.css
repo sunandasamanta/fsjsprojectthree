@@ -1,0 +1,135 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+body {
+    margin: 5rem 0 5rem 8rem;
+    font-family: "orbitron", sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    margin: 0rem 0rem 4rem 0;
+}
+
+img[src="./assets/Logo.png"] {
+    margin-right: 10rem;
+}
+
+.list-item {
+    display: inline;
+    font-weight: 500;
+    font-size: 1.45rem;
+    margin-left: 2.5rem;
+}
+
+.list-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.65rem;
+}
+
+.button-group {
+    display: flex;
+    position: absolute;
+    right: 5rem;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.nav-button {
+    background-color: #fff;
+    color: grey;
+    font-size: 1.25rem;
+    width: 7.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.75rem;
+    margin-left: 0.75rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.hero-container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.square {
+    position: absolute;
+    z-index: -1;
+    bottom: -11%;
+    left: 11%;
+}
+
+.star {
+    position: absolute;
+    right: 15%;
+}
+
+.star:nth-child(2) {
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+}
+
+.star:nth-child(2)>img {
+    width: 3rem;
+}
+
+.globe {
+    position: absolute;
+    top: -3.5%;
+    left: 50%;
+}
+
+.hero-container-right {
+    text-align: center;
+    margin-top: 1.75rem;
+}
+
+.hero-heading {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.hero-description {
+    font-family: "Poppins", sans-serif;
+    color: grey;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7rem;
+}
+
+.button-email {
+    width: 15rem;
+    background-color: #fff;
+    color: grey;
+    font-size: 1.5rem;
+    padding: 0.25rem 1.5rem 0.25rem 1.5rem;
+    border-radius: 0.75rem;
+    margin-left: 0.75rem;
+    font-weight: 400;
+}
+
+.button-join {
+    border-radius: 0.75rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.contact-heading {
+    margin: 10rem 0 0.5rem 0;
+    font-weight: 800;
+    color: gray;
+    font-size: 1.25rem;
+}
+
+.icons span {
+    margin-left: 0.75rem;
+}
